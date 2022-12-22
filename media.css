@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1140px) {
+
+}
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 32px;
+        color: #1E3240;
+    }
+    .award-title {
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 46px;
+        color: #1E3240;
+    }
+    award-subtitle {
+        font-size: 13px;
+        color: #BDBDBD;
+        padding: 30px 0;
+    }
+    .swiper-block {
+        position: relative;
+        width: 230px;
+        height: 100px;
+        margin-left: 27px;
+        margin-top: -120px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 18px rgb(0 0 0 / 4%);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+    .images img {
+        border-radius: 10px;
+        padding: 0 65px 0 55px;
+    }
+    .contact img{
+        padding: 0 65px 0 55px;
+    }
+}
+@media (max-width: 451px) {
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+
+}
+

@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: #AFD4E2;
+}
+
+.header {
+    z-index: 5;
+    position: fixed;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background: #AFD4E2;
+}
+
+.header-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1E3240;
+}
+
+.header-nav a {
+    margin: 0 40px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #1E3240;
+}
+
+#hero {
+    background: #AFD4E2;
+    height: 600px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 60px;
+    color: #1E3240;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #1E3240;
+    padding: 20px 0;
+}
+
+.hero-button {
+    width: 100px;
+    height: 38px;
+    background: #1E3240;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-btn {
+    width: 100px;
+    height: 38px;
+    margin: 0 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.hero img {
+    width: 600px;
+    height: 600px;
+}
+
+.award-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #1E3240;
+}
+
+.award-subtitle {
+    font-size: 18px;
+    color: #BDBDBD;
+    padding: 30px 0;
+}
+
+.award-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #AFD4E2;
+}
+
+.award-h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: #1E3240;
+}
+
+.award-naw {
+    display: flex;
+}
+
+.naw {
+    margin: 15px 15px;
+}
+
+.award {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*AWARD*/
+#swiper {
+    margin: 60px 0 0 0;
+}
+
+.project-title {
+    font-size: 35px;
+    color: #1E3240;
+    margin: 10px 0;
+}
+
+.project-subtitle {
+    font-size: 18px;
+    color: #BDBDBD;
+}
+
+.project-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-block {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: -120px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swiper-title {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #1E3240;
+}
+
+.swiper-subtitle {
+    font-size: 10px;
+    color: #1E3240;
+}
+
+.swiper img {
+    padding: 55px 0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#house{
+    padding: 70px 0;
+}
+.house-title{
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #1E3240;
+    margin: 10px 0;
+}
+.house-subtitle{
+    font-size: 18px;
+    text-align: center;
+    color: #1E3240;
+}
+.images img{
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+.dream-title{
+    font-size: 22px;
+    line-height: 40px;
+    color: #1E3240;
+}
+.dream-subtitle{
+    font-size: 20px;
+    color: #1E3240;
+    margin: 15px 0;
+}.contact-title{
+     font-size: 38px;
+     color: #1E3240;
+    margin: 10px 0;
+ }
+.contact-subtitle{
+    font-size: 15px;
+    color: #BDBDBD;
+}
+.contact-input{
+    background: white;
+    width: 250px;
+    height: 30px;
+    margin: 10px 10px;
+    border: 1px solid #1E3240;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-input{
+    width: 570px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 0 90px 5px;
+}
+.btn{
+    width: 124px;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #1E3240;
+    margin-right: 10px;
+}
+.button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0;
+}
+#lugar{
+    background: #1E3240;
+    position: absolute;
+    width: 1440px;
+    height: 380px;
+}
+.lugar-tipe{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 90px 20px 0 0;
+}
+.lugar-text{
+    display: flex;
+    margin: 20px 0;
+}
+.lugar-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lugar-title{
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 0 5px;
+}
+
+.lugar-subtitle{
+    margin: 15px 0;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.lugar-icon{
+    margin-right: 280px
+}
+.block{
+    margin: 0 0 30px 0;
+}
+.lugar-tipes{
+    padding: 70px 0;
+    font-size: 12px;
+    color: #BDBDBD;
+}
